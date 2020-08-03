@@ -1,0 +1,268 @@
+a{
+    cursor: pointer
+}
+input[type=checkbox]{
+    position: absolute;
+    visibility: visible;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+.contact__button__container{
+    display: flex;
+}
+.contact__button__container .btn{
+    text-align: center;
+
+}
+.special_block > .main__container > .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.modal__text{
+    text-align: left;
+}
+
+.banner__btn{
+    top:490px;
+}
+
+.showcase__models{
+    padding-left: 28px
+}
+.showcase__model-item a {
+    font-size: 16px;
+}
+.contact__right > div {
+    width: 500px;
+    height: 400px;
+}
+.showcase__item .item__head-header{
+    min-height: 50px;
+}
+label a{
+    color:$audi_red;
+}
+.modal-service__row{
+    width: 100%;
+}
+.banner__btn{
+    top:450px;
+}
+
+.modal__text-content p,.modal__text-content span,.modal__text-content sup,.modal__text-content strong{
+    font-family: AudiTNormal;
+}
+@media all and (max-width:1800px){
+    .banner__btn{
+        top:initial;
+        bottom:80px;
+    }
+}
+@media all and (max-width:1400px) {
+    .banner__btn{
+        /*top:300px;*/
+        left:40px;
+    }
+
+    .banner__btn{
+        top:initial;
+        bottom:60px;
+    }
+}
+@media all and (max-width:1199.98px) {
+    .btn{
+        font-size: 13px;
+    }
+    .showcase__models{
+        padding-left: 15px;
+    }
+    .contact__right{
+
+        display: block;
+    }
+    .contact__right > div{
+        margin-top: 20px;
+        width: 100%;
+        height: 400px;
+    }
+
+    .showcase__item .item__head-header{
+        min-height: auto;
+    }
+
+    .showcase__cars .showcase__car__item .item__image{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .showcase__car__item .item__image, .showcase__car__item .item__image img {
+
+        width: auto;
+    }
+}
+@media all and (max-width:440px){
+    .showcase__car__item .item__image, .showcase__car__item .item__image img{
+        width: 100%;
+    }
+}
+
+
+@media screen and (-ms-high-contrast:active), (-ms-high-contrast:none) {
+    .comagic-call-generator__body__content {
+        margin-top: 75px;
+    }
+    .comagic-call-generator__field-phone .comagic-col-4 {
+        flex-basis: 30%;
+    }
+    .banner__btn {
+        top:auto;
+        bottom:100px;
+    }
+    .showcase__cars .showcase__car__item ,.showcase__cars .showcase__item {
+        display: block;
+        position:relative;
+        flex-basis: 20%;
+    }
+    .showcase__car__item .item__list,.showcase__item .item__list{
+        margin-bottom: 100px;
+    }
+    .showcase__car__item .item__button,.showcase__item .item__button{
+        position: absolute;
+        bottom: 20px;
+        width:90%;
+    }
+    .modal__text{
+        max-width: 100%;
+    }
+}
+
+@media screen and (-ms-high-contrast:active) and (max-width:1400px), (-ms-high-contrast:none) and (max-width:1400px){
+    .showcase__cars .showcase__car__item ,.showcase__cars .showcase__item{
+        flex-basis: 26%;
+    }
+}
+
+@media screen and (-ms-high-contrast:active) and (max-width:1300px), (-ms-high-contrast:none) and (max-width:1300px){
+    .showcase__cars .showcase__car__item ,.showcase__cars .showcase__item{
+        flex-basis: 25%;
+    }
+    .showcase__item .item__head-right{
+        flex-basis: 36%;
+    }
+}
+
+
+/**
+ * Чёрные ценники
+ */
+.showcase__car__item .item__head-header-text, .showcase__item .item__head-header-text, .carousel__price, .carousel__promo .red{
+    color:#000;
+}
+.showcase__item .item__head_in_stock, .showcase__item .item__head_in_stock-text{
+    color: #000;
+    border-color: #000;
+}
+
+/**
+ * Точки в навигации
+ */
+.owl-carousel .owl-dots{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+@media all and (min-width:1199.98px){
+    .owl-carousel .owl-dots{
+        margin-top: 20px;
+    }
+}
+.owl-carousel button.owl-dot{
+    width: 20px;
+    height:20px;
+    border: 1px solid slategray;
+    border-radius: 50%;
+}
+.owl-carousel button.owl-dot.active{
+    background-color: slategray;
+}
+.owl-carousel button.owl-dot:not(:last-child){
+    margin-right: 10px;
+}
+.special_block__carousel.owl-carousel .owl-dots{
+    display: none;
+}
+.modal-service__row{
+    &.from__title{
+        padding-bottom: 15px;
+    }
+}
+.modal-service__title{
+    position: initial;
+    color: #000;
+    max-width: 100%;
+    line-height: 1;
+}
+.modal-service__item__text{
+    font-family: AudiTNormal;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align-last: auto;
+    margin-bottom: 20px;
+}
+.banner-service .owl-nav .owl-prev,
+.banner-service .owl-nav .owl-next {
+    position: absolute;
+    left: 30px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: block;
+    width: 30px;
+    height: 80px;
+    background: pink;
+    outline: none !important;
+    border: 0 !important;
+}
+.banner-service .owl-nav .owl-next {
+    left: auto;
+    right: 30px;    
+}
+.banner-service .owl-nav .owl-prev:before,
+.banner-service .owl-nav .owl-next:before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url(/images/image/next-white.svg) no-repeat center;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+}
+.banner-service .owl-nav .owl-prev:before {
+    transform: rotate(180deg);
+}
+.banner-service .owl-dot  {
+    outline: none !important;
+}
+@media (max-width: 1400px) {
+    .banner-service .owl-nav .owl-prev {
+        left: 15px;
+    }
+    .banner-service .owl-nav .owl-next {
+        right: 15px;
+    }
+}
+@media (max-width: 1199.98px) {
+    .banner__btn.special-offers__link {
+        color: #ffffff;
+        border-color: #000;
+    }
+}
+@media (max-width: 575px) {
+    .banner-service .owl-nav .owl-prev:before,
+    .banner-service .owl-nav .owl-next:before {
+        display: none;
+    }
+}

@@ -5,12 +5,14 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 module.exports = {
     devServer: {
         contentBase: path.join(__dirname, 'public'),
-        port: 3000,
+        port: 3001,
         host: `localhost`,
     },
     entry: {
         'dist/bundle_new.js': './resources/js/new/index.js',
-        "dist/bundle_new": "./resources/sass/new_site.scss"
+        'dist/bundle_service.js': './resources/js/old/service.js',
+        "dist/bundle_new": "./resources/sass/new_site.scss",
+        "dist/bundle_service": "./resources/sass/old_site.scss"
     },
     mode: "development",
     devtool: "source-map",

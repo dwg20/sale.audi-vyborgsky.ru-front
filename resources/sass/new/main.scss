@@ -156,12 +156,12 @@ a:hover {
 }
 
 .header__item-phone:before {
-    content: url("../../../public/img/phone.png");
+    content: url("/img/phone.png");
     top: 2px
 }
 
 .header__item-map:before {
-    content: url("../../../public/img/poi-small.png")
+    content: url("/img/poi-small.png")
 }
 
 .header__small {
@@ -417,11 +417,11 @@ input[type=checkbox] + label:before {
 }
 
 input[type=checkbox]:checked + label:before {
-    content: url("../../../public/img/checkbox_on.png")
+    content: url("/img/checkbox_on.png")
 }
 
 input[type=checkbox]:not(:checked) + label:before {
-    content: url("../../../public/img/checkbox_off.png")
+    content: url("/img/checkbox_off.png")
 }
 
 .form-block {
@@ -566,7 +566,7 @@ input[type=checkbox]:not(:checked) + label:before {
 }
 
 .contact__address:before {
-    content: url("../../../public/img/poi-small.png")
+    content: url("/img/poi-small.png")
 }
 
 .contact__phone {
@@ -576,7 +576,7 @@ input[type=checkbox]:not(:checked) + label:before {
 }
 
 .contact__phone:before {
-    content: url("../../../public/img/phone_big.png")
+    content: url("/img/phone_big.png")
 }
 
 .contact__promo {
@@ -1126,7 +1126,7 @@ input[type=checkbox]:not(:checked) + label:before {
 }
 
 .showcase__item .showcase__item__list {
-    list-style-image: url("../../../public/img/list.png");
+    list-style-image: url("/img/list.png");
     padding: 0;
     padding-left: 15px
 }
@@ -1268,7 +1268,7 @@ input[type=checkbox]:not(:checked) + label:before {
 }
 
 .showcase__car__item .showcase__item__list {
-    list-style-image: url("../../../public/img/list.png");
+    list-style-image: url("/img/list.png");
     padding: 0;
     padding-left: 15px
 }
@@ -1336,7 +1336,7 @@ input[type=checkbox]:not(:checked) + label:before {
 }
 
 .icon.icon__question {
-    background: url("../../../public/img/question_car.png") 50% no-repeat
+    background: url("/img/question_car.png") 50% no-repeat
 }
 
 @media (min-width: 1600px) {
@@ -1432,7 +1432,7 @@ input[type=checkbox]:not(:checked) + label:before {
 }
 
 .preference {
-    background: url("../../../public/img/background_preference.png") 50% no-repeat;
+    background: url("/img/background_preference.png") 50% no-repeat;
     background-size: cover;
     padding: 90px 0
 }
@@ -1465,35 +1465,35 @@ input[type=checkbox]:not(:checked) + label:before {
 }
 
 .preference__icon.test {
-    background: url("../../../public/img/icon_test.png") no-repeat 0
+    background: url("/img/icon_test.png") no-repeat 0
 }
 
 .preference__icon.cafe {
-    background: url("../../../public/img/icon_cafe.png") no-repeat 3px
+    background: url("/img/icon_cafe.png") no-repeat 3px
 }
 
 .preference__icon.atmosphere {
-    background: url("../../../public/img/icon_atm.png") no-repeat 0
+    background: url("/img/icon_atm.png") no-repeat 0
 }
 
 .preference__icon.child {
-    background: url("../../../public/img/icon_child.png") no-repeat 0
+    background: url("/img/icon_child.png") no-repeat 0
 }
 
 .preference__icon.biblio {
-    background: url("../../../public/img/icon_biblio.png") no-repeat 0
+    background: url("/img/icon_biblio.png") no-repeat 0
 }
 
 .preference__icon--venue {
-    background: url("../../../public/img/geofence-small.png") no-repeat 0
+    background: url("/img/geofence-small.png") no-repeat 0
 }
 
 .preference__icon--oneday {
-    background: url("../../../public/img/warranty-small.png") no-repeat 3px
+    background: url("/img/warranty-small.png") no-repeat 3px
 }
 
 .preference__icon--choise {
-    background: url("../../../public/img/used-cars-small.png") no-repeat 0
+    background: url("/img/used-cars-small.png") no-repeat 0
 }
 
 @media (max-width: 1199.98px) {
@@ -2088,7 +2088,7 @@ input[type=checkbox]:not(:checked) + label:before {
 .modal-service .fancybox-close-small {
     width: 22px;
     height: 22px;
-    background: url(../../../public/img/modal-service-close.svg);
+    background: url(/img/modal-service-close.svg);
     top: 20px;
     right: 21px
 }
@@ -2393,7 +2393,7 @@ input[type=checkbox]:not(:checked) + label:before {
 }
 
 .promo-num--availability {
-    background: url(../../../public/img/promo-num-1.png) no-repeat 2px
+    background: url(/img/promo-num-1.png) no-repeat 2px
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -2403,11 +2403,11 @@ input[type=checkbox]:not(:checked) + label:before {
 }
 
 .promo-num--casco {
-    background: url(../../../public/img/promo-num-2.png) no-repeat 1px
+    background: url(/img/promo-num-2.png) no-repeat 1px
 }
 
 .promo-num--overpayment {
-    background: url(../../../public/img/promo-num-3.png) no-repeat 11px
+    background: url(/img/promo-num-3.png) no-repeat 11px
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -2417,11 +2417,11 @@ input[type=checkbox]:not(:checked) + label:before {
 }
 
 .promo-num--tradein {
-    background: url(../../../public/img/promo-num-4.png) no-repeat 0
+    background: url(/img/promo-num-4.png) no-repeat 0
 }
 
 .promo-num--years {
-    background: url(../../../public/img/promo-num-5.png) no-repeat 15px
+    background: url(/img/promo-num-5.png) no-repeat 15px
 }
 
 .promo-num--line {
@@ -2503,7 +2503,7 @@ input[type=checkbox]:not(:checked) + label:before {
 
 .promo-form input[type=checkbox]:checked + label:before {
     border: 1px solid #747474;
-    background: url(../../../public/img/check.png) no-repeat 50%;
+    background: url(/img/check.png) no-repeat 50%;
     background-size: 80%;
     content: ""
 }
@@ -2864,7 +2864,7 @@ input[type=checkbox]:not(:checked) + label:before {
 }
 
 .best-offer__top {
-    background: url(../../../public/img/best-offer-bg.jpg) no-repeat top;
+    background: url(/img/best-offer-bg.jpg) no-repeat top;
     background-size: cover;
     padding-top: 40px;
     padding-bottom: 200px
@@ -3656,14 +3656,14 @@ input[type=checkbox]:not(:checked) + label:before {
     font-family: AudiTEBold;
     font-size: 19px;
     letter-spacing: -.01em;
-    background: url(../../../public/img/phone_big.png) no-repeat 2px top
+    background: url(/img/phone_big.png) no-repeat 2px top
 }
 
 .map__contact--venue {
     font-size: 16px;
     letter-spacing: -.01em;
     font-family: AudiTNormal;
-    background: url(../../../public/img/poi-small.png) no-repeat -2px 3px
+    background: url(/img/poi-small.png) no-repeat -2px 3px
 }
 
 .map__form {
@@ -4113,7 +4113,7 @@ input[type=checkbox]:not(:checked) + label:before {
     display: inline-block;
     width: 18px;
     height: 8px;
-    background: url(../../../public/img/btn-all-after.png) no-repeat 100%
+    background: url(/img/btn-all-after.png) no-repeat 100%
 }
 
 .car-item {
@@ -4287,7 +4287,7 @@ input[type=checkbox]:not(:checked) + label:before {
 }
 
 .car-item__opt--power {
-    background: url(../../../public/img/pover-icon.png) no-repeat 0;
+    background: url(/img/pover-icon.png) no-repeat 0;
     background-size: 48px 17px
 }
 
@@ -4298,7 +4298,7 @@ input[type=checkbox]:not(:checked) + label:before {
 }
 
 .car-item__opt--transmission {
-    background: url(../../../public/img/transmission-icon.png) no-repeat 3px;
+    background: url(/img/transmission-icon.png) no-repeat 3px;
     background-size: 34px 24px
 }
 
@@ -4309,7 +4309,7 @@ input[type=checkbox]:not(:checked) + label:before {
 }
 
 .car-item__opt--driving {
-    background: url(../../../public/img/driving-icon.png) no-repeat 0;
+    background: url(/img/driving-icon.png) no-repeat 0;
     background-size: 38px 30px
 }
 
@@ -4320,12 +4320,12 @@ input[type=checkbox]:not(:checked) + label:before {
 }
 
 .car-item__opt--fuel {
-    background: url(../../../public/img/fuel-icon.png) no-repeat 7px;
+    background: url(/img/fuel-icon.png) no-repeat 7px;
     background-size: 28px 33px
 }
 
 .car-item__opt--year{
-    background: url(../../../public/img/time-small.png) no-repeat 7px;
+    background: url(/img/time-small.png) no-repeat 7px;
     background-size: 28px 28px;
     @media (max-width:767px) {
         background-size: 22px 22px;
@@ -4407,7 +4407,7 @@ input[type=checkbox]:not(:checked) + label:before {
 
 .car-item__price .icon__question {
     top: 5px;
-    background-image: url(../../../public/img/question_car-big.png);
+    background-image: url(/img/question_car-big.png);
     background-size: contain
 }
 
@@ -4478,7 +4478,7 @@ input[type=checkbox]:not(:checked) + label:before {
 
 .car-item__gallery .owl-prev {
     left: 0;
-    background: url(../../../public/img/prev-slide-car.png) !important
+    background: url(/img/prev-slide-car.png) !important
 }
 
 .car-item__gallery .owl-next, .car-item__gallery .owl-prev {
@@ -4491,7 +4491,7 @@ input[type=checkbox]:not(:checked) + label:before {
 
 .car-item__gallery .owl-next {
     right: 0;
-    background: url(../../../public/img/next-slide-car.png) !important
+    background: url(/img/next-slide-car.png) !important
 }
 
 .car-item__bg {

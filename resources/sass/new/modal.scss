@@ -1,0 +1,21 @@
+.modal{
+  &-big{
+    width: 60%;
+    .modal__content{
+      max-width: 800px;
+      ul{
+        font-family: AudiTNormal;
+        line-height: 1.2;
+      }
+      li{
+        margin-bottom: 10px;
+      }
+    }
+    @media (max-width: 1199.98px) {
+      width: 100%;
+    }
+  }
+}
+.banner__btn{
+  z-index: 55;
+}

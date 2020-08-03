@@ -1,0 +1,142 @@
+.promo-banner .inner:not(.promo-banner__info) {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+}
+
+.promo-banner__bg img {
+    width: 100%;
+}
+
+.banner__btn {
+    top: initial;
+    bottom: 5%;
+}
+
+.header_fixed {
+    background-color: #fff;
+    z-index: 999;
+}
+
+.showcase-audi__item {
+    visibility: visible;
+}
+
+.header__logo {
+    font-family: AudiTEBold;
+    font-size: .9rem;
+}
+
+.header__logo.red {
+    color: $audi_red;
+}
+
+.slider-offer img {
+    z-index: 4;
+    position: relative;
+}
+
+.model-banner__price {
+    color: #000;
+}
+.model-menu__item{
+    margin: 0 auto;
+}
+
+.icon__question.icon__banner {
+    background-image: url(/img/question_car_white.png);
+}
+
+.car-item__price, .showcase__item .item__head-header-text {
+    color: #000;
+}
+
+.model-banner__right-block {
+    max-width: 450px;
+}
+
+.modal__text-content p, .modal__text-content span, .modal__text-content sup, .modal__text-content strong {
+    font-family: AudiTNormal;
+}
+
+.model-banner__price, .model-banner__credit {
+    color: #fff;
+}
+.showcase__models{
+    font-size: 14px;
+}
+.showcase__model-item a{
+    font-size: 1em;
+    white-space: nowrap;
+}
+
+.promo-banner__title, .model-banner__price, .model-banner__credit, .model-banner__subtitle{
+    white-space: nowrap;
+}
+@media all and (max-width: 1440px) {
+    .model-banner.banner_carousel {
+        padding: 0;
+        background: none;
+    }
+}
+
+@media all and (max-width: 1440px) and (min-width: 992px) {
+    .model-banner .promo-num--line .promo-num__digit {
+        font-size: 22px;
+    }
+}
+
+@media all and (max-width: 1400px) {
+    .model-menu__model-row {
+        word-break: break-word;
+    }
+
+    .model-menu__item {
+        margin-right: 30px;
+    }
+
+    .promo-banner__title {
+        font-size: 34px;
+    }
+
+    .promo-banner__subtitle {
+        font-size: 40px;
+    }
+
+    .promo-banner__numbers {
+        max-height: 100%;
+    }
+
+    .promo-banner__info.inner {
+        padding-left: 35px;
+        padding-right: 35px
+    }
+
+    .showcase__model-item a {
+        font-size: .8em;
+    }
+}
+
+@media all and (max-width: 1199.98px) {
+    .model-menu__inner {
+        overflow: scroll;
+    }
+
+    .model-banner__price {
+        color: #fff;
+    }
+}
+
+@media all and (max-width: 991px) {
+    .promo-banner__subtitle {
+        font-size: 30px;
+    }
+
+    .promo-banner__title, .model-banner__price, .model-banner__credit, .model-banner__subtitle{
+        white-space: normal;
+    }
+}
+.header__item-map{
+    white-space: nowrap;
+}
+@import "banner";

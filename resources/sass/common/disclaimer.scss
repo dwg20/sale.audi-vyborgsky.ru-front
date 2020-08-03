@@ -1,0 +1,45 @@
+.footer__disclaimer--block {
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
+    padding-bottom: 34px;
+}
+
+.footer__disclaimer--button {
+    display: block;
+    font-family: AudiTNormal;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    border-top: 1px solid $audi_gray;
+    color: $audi_gray;
+    padding-top: 15px;
+    z-index: 1;
+}
+
+.footer__disclaimer--slider {
+    transition: all ease-in-out 1s;
+    z-index: 0;
+}
+
+.footer__disclaimer--button.close + .footer__disclaimer--slider {
+    opacity: 0;
+    max-height: 0px;
+
+    p {
+        display: none;
+    }
+}
+
+.footer__disclaimer--button:not(.close) + .footer__disclaimer--slider {
+    opacity: 1;
+    max-height: 5000px;
+
+    p {
+        display: block;
+    }
+}
+
+.footer__disclaimer{
+    padding-bottom: 0;
+}

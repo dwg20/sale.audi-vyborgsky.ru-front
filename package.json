@@ -1,0 +1,51 @@
+{
+    "private": true,
+    "main": "index.js",
+    "scripts": {
+        "start-dev": "babel-watch ./index.js --env.NODE_ENV=local",
+        "start": "./node_modules/.bin/webpack-dev-server",
+        "build": "webpack"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.11.0",
+        "@babel/preset-env": "^7.11.0",
+        "axios": "^0.19",
+        "babel-loader": "^8.1.0",
+        "babel-watch": "^7.0.0",
+        "bootstrap": "^4.1.0",
+        "cross-env": "^5.1",
+        "css-loader": "^4.2.0",
+        "extract-text-webpack-plugin": "^4.0.0-beta.0",
+        "file-loader": "^6.0.0",
+        "html-loader": "^1.1.0",
+        "html-webpack-plugin": "^4.3.0",
+        "jquery": "^3.2",
+        "lodash": "^4.17.5",
+        "mini-css-extract-plugin": "^0.9.0",
+        "popper.js": "^1.12",
+        "resolve-url-loader": "^2.3.1",
+        "sass": "^1.15.2",
+        "sass-loader": "^7.1.0",
+        "style-loader": "^1.2.1",
+        "webpack": "^4.44.1",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0"
+    },
+    "dependencies": {
+        "@fancyapps/fancybox": "^3.5.7",
+        "autoprefixer": "^9.6.4",
+        "core-js": "^3.6.5",
+        "d3": "^5.12.0",
+        "eonasdan-bootstrap-datetimepicker": "^4.17.47",
+        "jquery-mask-plugin": "github:igorescobar/jQuery-Mask-Plugin",
+        "lazyload": "^2.0.0-rc.2",
+        "owl.carousel": "^2.3.4",
+        "select2": "^4.0.10",
+        "summernote": "^0.8.15",
+        "tippy.js": "^4.3.5"
+    },
+    "browserslist": [
+        "last 20 version",
+        "ie 10-11"
+    ]
+}

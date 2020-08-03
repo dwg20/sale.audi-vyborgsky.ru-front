@@ -1,0 +1,40 @@
+/**
+ * Общий стиль для всех кнопок по требованию импортёра
+ */
+@mixin black_button {
+    transition: all .5s ease-in-out;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    &:hover{
+        background-color: #fff;
+        color: #000;
+        border-color: #000;
+    }
+}
+
+@mixin media_type($minwidth:false,$maxwidth:false) {
+    @if ($minwidth and $maxwidth) {
+        @media screen and (min-width: $minwidth) and (max-width: $maxwidth) {
+            @content
+        }
+    } @else if ($minwidth) {
+        @media screen and (min-width: $minwidth){
+            @content
+        }
+    } @else if ($maxwidth) {
+        @media screen and (max-width: $maxwidth) {
+            @content
+        }
+    } @else {
+        @media screen and (max-width: $mobile_version){
+            @content
+        }
+    }
+}
+
+@mixin ie_media(){
+    @media (-ms-high-contrast:none),screen and (-ms-high-contrast:active){
+        @content
+    }
+}

@@ -1,0 +1,69 @@
+.showcase-audi__item {
+    display: flex;
+    flex-direction: column;
+
+    .item__head {
+        flex-basis: 10%;
+    }
+}
+
+.showcase-audi__main-info--dop {
+    flex-basis: 20%;
+}
+
+.showcase-audi__main-info {
+    flex-basis: 10%;
+}
+
+.showcase-audi__photo {
+    flex-basis: 50%;
+}
+
+.showcase-audi__btns {
+    flex-basis: 10%;
+}
+
+.showcase-audi__list {
+    li {
+        white-space: nowrap;
+    }
+}
+
+@include ie_media {
+    .showcase-audi__item {
+        min-height: 600px;
+    }
+}
+
+.car-item {
+    transition: all ease-in .8s;
+    max-height: 500px;
+    opacity: 1;
+
+    &.hidden {
+        visibility: hidden;
+        max-height: 0;
+        opacity: 0;
+        margin-bottom: 0;
+    }
+    @include media_type(false,1000px){
+        max-height: initial;
+    }
+}
+
+.showmore_view {
+    display: block;
+    margin-top: 50px;
+}
+
+.btn_showmore {
+    display: block;
+    margin: 0 auto;
+    min-width: 300px;
+    background: #fff;
+    color: #000;
+    @include media_type(false,800px){
+        max-width: 200px;
+    }
+}
+

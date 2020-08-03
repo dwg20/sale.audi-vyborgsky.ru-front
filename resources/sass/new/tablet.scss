@@ -1,0 +1,24 @@
+/**
+ * Стили для планшетов
+ */
+@include media_type(750px, 1100px) {
+    .showcase-audi__btns {
+        .btn {
+            width: 95%;
+        }
+    }
+
+    .model-banner {
+        padding-bottom: 130px;
+        &__bottom-block {
+            bottom: 55px;
+        }
+        .promo-num--line {
+            .promo-num__digit,.promo-num__text {
+                white-space: pre-wrap;
+            }
+        }
+    }
+
+
+}
